@@ -25,19 +25,9 @@ const Third = () => {
             A Small Cute Paragraph For U
           </h5>
           <p className="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
-            hey our monthiversary is incomplete without these paragraphs and uk
+            hey love my loml finally today i got the opportunity to write a paragraph for u and uk
             i am an expert in these because your incoming in my life helped me
-            in having many stories it's really special monthiversary i want to
-            do a lot more than this but sorry i couldnt but uk something thanks
-            for everything i literally felt incomplete without u you really are
-            kinda colour to my life thank you for ur existence my dear gugu
-            sweetu i finished my year 2023 with u and want to finish every year
-            with u and u only i love u a lot uk it though i know it too and i
-            even know u too love me bs ye h bologi nhi btw ek gift or h joh shyd
-            aaj hi banadoon mehnt lagegi but shyd keep checking my old gifts btw
-            sorry ik agar paisa hota to bhot acha gift de paata and thank u my
-            love my sweetuu.Mujhe pta h m bhot slow hoon but bs tumhara hoon
-            jaisa bhi hoon Click The Box By The way
+            in having many stories it's really special anniversary by the way since we had been from many up and downs and still are with each other i still cant believe i got my life partner through a phone editing app which i never even thought i will use Really you are the best person or best gift i had from the god after my mom and my brother and my dad i really cant forget the times we spend with each other and the love i have for u i have done many fuck ups in my life and will do many more for sure but i want u to be on my side always at last i just want to say i love u my kuchupuchuu i loveeee uuuuu a lotttt   Click The Box By The way
           </p>
         </div>
       </Link>

@@ -31,7 +31,7 @@ const Second = () => {
       >
         <h1 className="h-48 flex justify-center items-center text-white ">
           {" "}
-          hey!! Siddhu Happy Rose Day and 6th Montiversary
+          hey!! Shrutii Happy Rose Day and 2nd Year Anniversary
         </h1>
         <div className="flex justify-center items-center h-96">
           <button
