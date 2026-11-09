@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Third = () => {
   return (
@@ -10,8 +9,10 @@ const Third = () => {
           "url(https://media.tenor.com/Je68nyCU_j8AAAAj/bubu-dudu-bubu-dudu-love.gif)",
       }}
     >
-      <Link
-        to="https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      <a
+        href="https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-3xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <img
@@ -30,7 +31,7 @@ const Third = () => {
             in having many stories it's really special anniversary by the way since we had been from many up and downs and still are with each other i still cant believe i got my life partner through a phone editing app which i never even thought i will use Really you are the best person or best gift i had from the god after my mom and my brother and my dad i really cant forget the times we spend with each other and the love i have for u i have done many fuck ups in my life and will do many more for sure but i want u to be on my side always at last i just want to say i love u my kuchupuchuu i loveeee uuuuu a lotttt   Click The Box By The way
           </p>
         </div>
-      </Link>
+      </a>
     </div>
   );
 };

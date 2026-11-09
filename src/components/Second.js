@@ -1,22 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import useSound from "use-sound";
 import blast from "./yes.mp3";
 import { useNavigate } from "react-router-dom";
 
 const Second = () => {
   const nav = useNavigate();
-  useEffect(() => {
-    setTimeout(() => {
-      document.getElementById("clickme").style.display = "block";
-    }, 4000);
-  }, []);
+  const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
-        // eslint-disable-next-line
+    const timer1 = setTimeout(() => {
+      setShowButton(true);
+    }, 4000);
+
+    const timer2 = setTimeout(() => {
       nav("/third");
     }, 20000);
-  }, []);
+
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+    };
+  }, [nav]);
 
   const [playSound] = useSound(blast);
 
@@ -35,7 +39,7 @@ const Second = () => {
         </h1>
         <div className="flex justify-center items-center h-96">
           <button
-            className="text-green-700 px-2 hidden"
+            className={`text-green-700 px-2 ${showButton ? "block" : "hidden"}`}
             id="clickme"
             onClick={playSound}
           >
